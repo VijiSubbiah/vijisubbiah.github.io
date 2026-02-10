@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VS1PHJX1YL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VS1PHJX1YL');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading List - Prashant Rana</title>
+    <meta name="description" content="Books shaping my product thinking - technical, business, and personal reads from a Senior PM.">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Reading List - Prashant Rana">
+    <meta property="og:description" content="Books shaping my product thinking - technical, business, and personal reads.">
+    <meta property="og:image" content="https://prpmdev.github.io/prashant-rana/images/profile-pictures/pr-at-seattle.jpg">
+    <meta property="og:url" content="https://prpmdev.github.io/prashant-rana/reading-list.html">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Reading List - Prashant Rana">
+    <meta name="twitter:description" content="Books shaping my product thinking - technical, business, and personal reads.">
+    <meta name="twitter:image" content="https://prpmdev.github.io/prashant-rana/images/profile-pictures/pr-at-seattle.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="reading-list-styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main role="main">
+        <section class="reading-section">
+            <div class="section-header">
+                <h1>Reading List</h1>
+                <p>Reading shapes our thoughts and approach to life. Here's what's influencing me.</p>
+            </div>
+
+            <div class="type-toggle">
+                <button class="type-pill active" data-type="all">All</button>
+                <button class="type-pill" data-type="technical">Technical</button>
+                <button class="type-pill" data-type="business">Business</button>
+                <button class="type-pill" data-type="personal">Personal</button>
+            </div>
+
+            <div id="bookGrid" class="book-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+
+            <div id="emptyState" class="empty-state" style="display: none;">
+                <p>Still finding something to read here...</p>
+                <p>Got a recommendation?</p>
+                <a href="https://www.linkedin.com/in/prashantrana/" target="_blank" rel="noopener noreferrer" class="linkedin-cta">Let me know on LinkedIn &rarr;</a>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/headerfooter.js"></script>
+    <script src="js/reading.js"></script>
+</body>
+</html>

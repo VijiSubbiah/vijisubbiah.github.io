@@ -1,0 +1,346 @@
+/* Page Layout */
+.reading-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Section Headers */
+.section-header {
+    margin-bottom: 20px;
+}
+
+.section-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Type Toggle Pills - connected design like work page */
+.type-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.type-pill {
+    flex: 1;
+    padding: 12px 24px;
+    border: 2px solid #333;
+    background: transparent;
+    color: #333;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-right: 1px solid #333;
+}
+
+.type-pill:first-child {
+    border-radius: 25px 0 0 25px;
+}
+
+.type-pill:last-child {
+    border-radius: 0 25px 25px 0;
+    border-left: 1px solid #333;
+}
+
+.type-pill:hover {
+    background: #f0f0f0;
+}
+
+.type-pill.active {
+    background: #333;
+    color: #fff;
+}
+
+/* Book Grid Layout - 2 columns base, 3 max */
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 10px 0;
+}
+
+/* 3 columns on wider screens */
+@media (min-width: 900px) {
+    .book-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Book Card */
+.book-item {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    border: 1px solid #eee;
+}
+
+.book-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Blurb Tooltip - appears on hover */
+.blurb-tooltip {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: calc(100% + 10px);
+    background: rgba(255, 255, 255, 0.97);
+    color: #333;
+    padding: 12px 16px;
+    font-size: 0.85em;
+    line-height: 1.5;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 20;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    border: 1px solid rgba(0,0,0,0.1);
+    pointer-events: none;
+    width: 280px;
+    max-width: 90vw;
+}
+
+.blurb-tooltip::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    transform: translateX(-50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.97);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.book-item:hover .blurb-tooltip {
+    opacity: 1;
+    visibility: visible;
+    bottom: calc(100% + 8px);
+}
+
+.book-container {
+    display: flex;
+    padding: 20px;
+    padding-top: 30px;
+    gap: 20px;
+    position: relative;
+}
+
+/* Status Label as full band */
+.status-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 4px;
+    color: white;
+    font-size: 0.7em;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    z-index: 1;
+}
+
+.status-label.reading {
+    background-color: #f59e0b;
+}
+
+.status-label.completed {
+    background-color: #22c55e;
+}
+
+/* Book Image */
+.book-image {
+    flex: 0 0 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-image img {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #f8f9fa;
+}
+
+.book-rating {
+    margin-top: 8px;
+    color: #ffc107;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Book Information */
+.book-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.book-info h3 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+    line-height: 1.3;
+}
+
+.book-info .author {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.book-info .blurb {
+    font-size: 0.85em;
+    line-height: 1.4;
+    color: #666;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Loading States */
+.loading-skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Error Message - matches work-styles.css */
+.error-message {
+    width: 100%;
+    margin: 20px 0;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    line-height: 1.4;
+    box-sizing: border-box;
+    background-color: #fee2e2;
+    border: 1px solid #fecaca;
+    color: #dc2626;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #666;
+}
+
+.empty-state p {
+    margin: 0 0 8px 0;
+    font-size: 1.1em;
+}
+
+.empty-state p:first-child {
+    font-size: 1.2em;
+    color: #444;
+}
+
+.linkedin-cta {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 10px 24px;
+    background: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background 0.2s ease;
+}
+
+.linkedin-cta:hover {
+    background: #005885;
+}
+
+/* Responsive Design */
+/* Mobile - single column */
+@media (max-width: 600px) {
+    .book-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .type-pill {
+        padding: 10px 8px;
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-header h1 {
+        font-size: 2em;
+    }
+
+    .book-container {
+        padding: 15px;
+        padding-top: 25px;
+        gap: 15px;
+    }
+
+    .status-label {
+        padding: 3px;
+        font-size: 0.65em;
+    }
+
+    .book-image {
+        flex: 0 0 100px;
+    }
+
+    .book-image img {
+        width: 100px;
+        height: 150px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .book-item {
+        break-inside: avoid;
+    }
+
+    .status-label {
+        print-color-adjust: exact;
+    }
+
+    .type-toggle {
+        display: none;
+    }
+}

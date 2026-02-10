@@ -1,0 +1,497 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Layout */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    text-transform: lowercase;
+    transition: color 0.2s ease;
+}
+
+.navigation a:hover {
+    color: #666;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero-image-wrapper {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hero-content .aside {
+    font-size: 0.85em;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.hero-content s {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+.hero-content .accent-subtle {
+    color: #c45c5c;
+}
+
+.hero-content .cta-text {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.hero-content .cta-text:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+/* Pulsating animation */
+.pulse {
+    display: inline-block;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(5px);
+        opacity: 0.7;
+    }
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.email-logo-link,
+.linkedin-logo-link,
+.github-logo-link,
+.instagram-logo-link {
+    margin-left: 10px;
+}
+
+.email-logo,
+.linkedin-logo,
+.github-logo,
+.instagram-logo {
+    height: 30px;
+    object-fit: contain;
+}
+
+/* Testimonials Section */
+.testimonials {
+    margin: 20px 0;
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+
+.testimonials h2 {
+    font-size: 1.4em;
+    margin-bottom: 8px;
+    color: #333;
+    padding: 0 20px;
+}
+
+.star-rating {
+    color: #DAA520;
+}
+
+.rating {
+    color: #f8d64e;
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Carousel Arrow Controls */
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    color: #333;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+}
+
+.testimonials:hover .carousel-arrow {
+    opacity: 1;
+}
+
+.carousel-arrow:hover {
+    background: #fff;
+    border-color: #333;
+}
+
+.carousel-prev { left: -50px; }
+.carousel-next { right: -50px; }
+
+.testimonial {
+    flex: 0 0 50%;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.testimonial-content {
+    background: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+}
+
+.testimonial h3 {
+    font-size: 1.15em;
+    color: #333;
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.testimonial .title {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;
+}
+
+.testimonial .relationship {
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+    font-weight: 500;
+    margin: 2px 0 12px 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.testimonial blockquote {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #444;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    border-left: none;
+    flex-grow: 1;
+    overflow: hidden;
+    text-align: left;
+}
+
+.testimonial .read-more {
+    display: none;
+    text-align: right;
+    color: #666;
+    font-size: 0.9em;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: color 0.2s ease;
+}
+
+.testimonial .read-more.visible {
+    display: block;
+}
+
+.testimonial .read-more:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Logo Bar */
+:root {
+    --logo-size-min: 40px;
+    --logo-size-max: 70px;
+    --logo-size-preferred: 8vw;
+    --logo-gap: clamp(20px, 4vw, 50px);
+}
+
+.logo-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--logo-gap);
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.logo-bar-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-bar-item img {
+    width: clamp(var(--logo-size-min), var(--logo-size-preferred), var(--logo-size-max));
+    height: auto;
+    filter: invert(1) grayscale(100%);
+    opacity: 0.7;
+    transition: filter 0.3s ease, opacity 0.3s ease, transform 0.2s ease;
+}
+
+.logo-bar-item:hover img,
+.logo-bar-item:focus img {
+    filter: invert(1) grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.logo-bar-item:focus {
+    outline: none;
+}
+
+/* Oracle and Couchbase logos need larger scaling */
+.logo-bar-item[title="Oracle"] img {
+    transform: scale(1.25);
+}
+
+.logo-bar-item[title="Oracle"]:hover img {
+    transform: scale(1.3);
+}
+
+.logo-bar-item[title="Couchbase"] img {
+    transform: scale(1.25);
+}
+
+.logo-bar-item[title="Couchbase"]:hover img {
+    transform: scale(1.3);
+}
+
+@media (max-width: 500px) {
+    .logo-bar {
+        gap: 12px;
+        padding: 0.75rem;
+        overflow-x: auto;
+        justify-content: center;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .logo-bar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .logo-bar-item img {
+        width: 35px;
+        flex-shrink: 0;
+    }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.0em;
+    background-color: #f0f0f0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-content {
+        padding: 10px 15px;
+    }
+
+    .navigation {
+        gap: 15px;
+    }
+
+    .navigation a {
+        font-size: 0.9em;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-image-wrapper {
+        width: 200px;
+        height: 200px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.6em;
+    }
+
+    .cta-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .btn {
+        margin-right: 0;
+    }
+
+    .testimonials {
+        padding: 0;
+    }
+
+    .testimonial {
+        flex: 0 0 100%;
+        width: 100%;
+        padding: 10px 0;
+        height: 380px;
+    }
+
+    /* Hide carousel arrows on mobile - use swipe */
+    .carousel-arrow {
+        display: none;
+    }
+
+    .testimonial-content {
+        padding: 20px;
+    }
+
+    .testimonial h3 {
+        font-size: 1.05em;
+        text-align: center;
+    }
+
+    .testimonial .title {
+        font-size: 0.85em;
+        text-align: center;
+    }
+
+    .testimonial .relationship {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .testimonial blockquote {
+        font-size: 0.9em;
+        text-align: left;
+    }
+
+    .testimonial .read-more {
+        font-size: 0.8em;
+    }
+}
+

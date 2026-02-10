@@ -1,0 +1,25 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Dependency directories
+node_modules/
+
+# Local development
+*.log
+npm-debug.log*
+
+# Claude Code (private, not committed)
+/CLAUDE.md
+/claude.md
+/.claude/
+
+# Troubleshooting screenshots
+troubleshooting/
+
+# Demo script (local only)
+demoscript.md
