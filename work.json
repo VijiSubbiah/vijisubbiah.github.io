@@ -1,0 +1,418 @@
+{
+  "config": {
+    "imagePaths": {
+      "logos": "images/company-logos"
+    }
+  },
+  "items": [
+    {
+      "id": "Honeywell",
+      "type": "professional",
+      "rank": 1,
+      "name": "Honeywell",
+      "companyUrl": "https://honeywell.com",
+      "companyDescription": "A multi national Conglomerate",
+      "tags": ["BMS", "integrations", "API", "partnerships", "0-to-1", "Automation" , "Artificial Intelligence"],
+      "branding": {
+        "logos": {
+          "white": "images/company-logos/honeywell-logo.jpg"
+        },
+        "colors": {
+          "primary": "#FF6F00"
+        }
+      },
+      "role": {
+        "title": "Senior Product Owner",
+        "level": "Senior"
+      },
+      "overview": {
+        "description": "Built an application to Streamline facility operations with Honeywell Site Manager. Gaining real-time visibility and control over HVAC, lighting, and energy systems across multiple zones and locations—all from a single intuitive dashboard - supporting mobile device, drove ARR through major platform integrations. Focused on developer experience, platform scalability, and strategic partnerships.",
+        "skillset": {
+          "technical": [
+            "",
+            "AI/ML Integration",
+            "Platform Architecture",
+            "Developer Tools",
+            "Data Processing"
+          ],
+          "functional": [
+            "Product Strategy",
+            "Partner Management",
+            "Revenue Growth",
+            "Platform Scaling",
+            "Team Leadership",
+	    "AI Integrations",
+	    "Quick to Market"
+          ]
+        }
+      },
+      "achievements": [
+        {
+          "title": "Site Manager for Honeywell Building Management Systems",
+              
+            {"label": "Marketplace", "url": "https://buildings.honeywell.com/ae/en/products/by-category/building-management/software/cloud-software/site-manager"},
+            {"label": "Docs", "url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/manuals-and-guides/user-manuals/hon-ba-hbs-honeywell-forge-for-buildings-site-manager-user-guide-31-00868-2.pdf?download=false"}
+          ],
+          "description": "...an application to Streamline facility operations with Honeywell Site Manager. Gaining real-time visibility and control over HVAC, lighting, and energy systems across multiple zones and locations—all from a single intuitive dashboard - supporting mobile device,.",
+          "impact": [
+            " Increased user engagement with HVAC,light equipment observability and timely alerts ",
+            "Easy to use for a non-tech user",
+            "Reduced integration,support and turn around time",
+            "Mobile-Optimized Smart Building Management for QSR, Retail & Multisite Operators",
+            "Built automated to support HVAC,light and other asset types"
+          ]
+        },
+        {
+          "title": "Self-Service Onboarding Portal",
+         {"label": "Onboarding Marketplace", "url": "https://admin.buildingsmanager.honeywellcloud.com/"},
+            {"label": "Unified apps Marketplace", "url": "https://buildings.honeywell.com/in/en/redirects/sso/partner-portal"}
+          ,
+          "description": "Designed for real-time visibility,control and optimization of building systems across multiple facilities",
+          "impact": [
+            "Optimized Onborading duration",
+            "Achieved value realization in under a month, down from three.",
+            "Seamless user onboarding with required RBAC for authorised control access",
+                      ]
+        },
+        {
+          "title": "Unified Digitization Platform",
+          "description": "Led digitization of data across install base for user visuals via KPI dashboard",
+                    "impact": [
+            "Migrated data from install base to cloud via connectors",
+            "User customisable KPI dashboards for insights",
+            
+          ]
+        },
+        
+        
+            },
+    {
+      "id": "rsa",
+      "type": "professional",
+      "rank": 2,
+      "name": "DELL EMC RSA Security",
+      "companyUrl": "https://www.rsa.com",
+      "companyDescription": "Fortune 100 enterprise software leader in database and cloud solutions",
+      "tags": ["APIs", "ML/AI", "data pipelines", "CRM", "enterprise"],
+      "branding": {
+        "logos": {
+          "white": "images/company-logos/DELL-RSA-Logo.jpg"
+        },
+        "colors": {
+          "primary": "#C74634"
+        }
+      },
+      "role": {
+        "title": "Product Manager",
+        "level": "Mid"
+      },
+      "overview": {
+        "description": "Product strategy for Oracle CX Sales data operations platform — enterprise B2B CRM at scale. Focused on API-driven data management, ML-powered automation, and operational efficiency.",
+        "skillset": {
+          "technical": [
+            "Big Data Processing",
+            "ML/AI",
+            "OCI Data Lake",
+            "API Framework",
+            "Data Analytics"
+          ],
+          "functional": [
+            "Product Strategy",
+            "Resource Optimization",
+            "Performance Improvements",
+            "Customer Success",
+            "Cost Optimization"
+          ]
+        }
+      },
+      "achievements": [
+        {
+          "title": "Alternate Key & External System Linking",
+          "description": "Led initiative to enable external system ID linking for enterprise data imports — eliminating dependency on Oracle primary keys",
+          "links": [
+            {"label": "22C Release Notes", "url": "https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/cloud/r13/wn/engagement/releases/22C/22C-sf-automation-wn.htm#T36059"},
+            {"label": "21D Release Notes", "url": "https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/cloud/r13/wn/engagement/releases/21D/21D-sf-automation-wn.htm"}
+          ],
+          "impact": [
+            "Enabled PUID and Original System Reference linking — prevented churn for enterprise customers",
+            "Reduced integration complexity for 1:M relationships and Dynamic Choice Lists",
+            "Improved data import success rates for enterprise customers with complex system landscapes"
+          ]
+        },
+        {
+          "title": "ML-Powered Import Prediction",
+          "description": "Shipped ML-based prediction system for import job scheduling and resource allocation",
+          "links": [
+            {"label": "22A Release Notes", "url": "https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/cloud/r13/wn/engagement/releases/22A/22A-sf-automation-wn.htm"}
+          ],
+          "impact": [
+            "Built predictive model for import job completion times",
+            "Enabled proactive resource allocation reducing queue wait times",
+            "Reduced cost per import cycle through ML-optimized scheduling"
+          ]
+        },
+        {
+          "title": "Import/Export Ops Optimization",
+          "description": "Delivered operational efficiency improvements across the data import/export framework",
+          "links": [
+            {"label": "22B Release Notes", "url": "https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/cloud/r13/wn/engagement/releases/22B/22B-sf-automation-wn.htm"},
+            {"label": "22C Release Notes", "url": "https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/cloud/r13/wn/engagement/releases/22C/22C-sf-automation-wn.htm"}
+          ],
+          "impact": [
+            "Implemented dynamic queue management — reduced support escalations",
+            "Added reusable advanced options — decreased import/export setup time",
+            "Delivered measurable annual savings through operational efficiency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impelsys",
+      "type": "professional",
+      "rank": 3,
+      "name": "Impelsys",
+      "companyUrl": "https://www.impelsys.com",
+      "companyDescription": "Global management consulting and technology leader in healthcare and life sciences",
+      "tags": ["AWS", "ML/AI", "analytics", "0-to-1"],
+      "branding": {
+        "logos": {
+          "white": "images/company-logos/impelsys-logo.jpg"
+        },
+        "colors": {
+          "primary": "#eb7200"
+        }
+      },
+      "role": {
+        "title": "Senior Business Analyst",
+        "level": "Mid"
+      },
+      "overview": {
+        "description": "Built enterprise analytics platform products in healthcare/life sciences — from 0-to-1 AWS resource management to rapid application deployment tools.",
+        "skillset": {
+          "technical": [
+            "AWS Cloud",
+            "Analytics Platform",
+            "ML/AI Compute",
+            "Healthcare Analytics",
+            "Application Development"
+          ],
+          "functional": [
+            "Product Strategy",
+            "Cost Optimization",
+            "Platform Development",
+            "Healthcare Domain",
+            "Resource Management"
+          ]
+        }
+      },
+      "achievements": [
+        {
+          "title": "REVO™ Workbench Management Console",
+          "description": "First 0-to-1 product — intelligent AWS resource provisioning for data science teams as part of the REVO Analytics platform",
+          "videoUrl": "https://www.youtube.com/watch?v=lcSU_xVDR30",
+          "links": [
+            {"label": "Press Release", "url": "https://www.prnewswire.com/news-releases/zs-introduces-aws-powered-end-to-end-analytics-platform-for-life-sciences-industry-300453648.html"}
+          ],
+          "impact": [
+            "Reduced ML/AI compute resource provisioning time by ~80%",
+            "Cut customer infrastructure costs by ~30%",
+            "Self-service console for project creation, team management, and resource allocation"
+          ]
+        },
+        {
+          "title": "Javelin Application Catalyst",
+          "description": "Prebuilt application templates integrating web frameworks and Iron Python for rapid analytics deployment",
+          "impact": [
+            "Generated new revenue stream within first year of launch",
+            "Reduced deployment costs by ~60%",
+            "Accelerated custom analytics application development",
+            "Stabilized platform and transitioned to maintenance mode"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LG",
+      "type": "professional",
+      "rank": 4,
+      "name": "LG Electronics",
+      "companyUrl": "https://www.lg.com",
+      "companyDescription": "Leading provider of medical devices and healthcare monitoring solutions",
+      "tags": ["device integration", "EHR", "compliance", "IoT"],
+      "branding": {
+        "logos": {
+          "white": "images/company-logos/LG-logo.jpg"
+        },
+        "colors": {
+          "primary": "#000000"
+        }
+      },
+      "role": {
+        "title": "Research Analyst",
+        "level": "Junior"
+      },
+      "overview": {
+        "description": "Product owner for patient monitoring connectivity solutions — delivering EHR integrations, cloud readiness, and critical system updates during COVID-19.",
+        "skillset": {
+          "technical": [
+            "Healthcare Systems",
+            "Data Exchange",
+            "Compliance",
+            "Remote Access",
+            "Device Integration"
+          ],
+          "functional": [
+            "Product Strategy",
+            "Healthcare Compliance",
+            "Vendor Management",
+            "Cost Optimization",
+            "Remote Operations"
+          ]
+        }
+      },
+      "achievements": [
+        {
+          "title": "XprezzNet™ Connectivity Platform",
+          "description": "Product owner for high-resolution vital signs connectivity solution integrating with major EHR systems",
+          "links": [
+            {"label": "Product Page", "url": "https://spacelabshealthcare.com/products/patient-monitoring-connectivity/networking-and-integration/xprezznet/"}
+          ],
+          "impact": [
+            "Multiple releases certified to Epic and Cerner standards",
+            "Prepped platform for cloud deployment and SaaS integration (SafeNSound)",
+            "Enabled third-party device integration via Flexport® interfaces (ventilators, hemodynamic monitors)"
+          ]
+        },
+        {
+          "title": "Xhibit Central Station Updates",
+          "description": "Led critical system updates and hardware refresh during COVID-19 microchip crisis",
+          "links": [
+            {"label": "Product Page", "url": "https://spacelabshealthcare.com/products/patient-monitoring-connectivity/surveillance/xhibit-xc48/"}
+          ],
+          "impact": [
+            "Delivered alarm audio loss correction across deployed hospital systems",
+            "Managed hardware refresh strategy during global chip shortage",
+            "Evaluated secure remote maintenance solutions for field support"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cts",
+      "type": "professional",
+      "rank": 5,
+      "name": "Cognizant Technology Solutions",
+      "companyUrl": "https://www.cognizant.com",
+      "companyDescription": "Global leader in IT services and digital solutions",
+      "tags": ["cloud", "BPaaS", "ERP integration", "automation"],
+      "branding": {
+        "logos": {
+          "white": "images/company-logos/cts-logo.jpg"
+        },
+        "colors": {
+          "primary": "#0080c5"
+        }
+      },
+      "role": {
+        "title": "Programmer Analyst",
+        "level": "Fresher"
+      },
+      "overview": {
+        "description": "Progressed from development to program management — leading P2P automation implementations for Fortune 500 customers.",
+        "skillset": {
+          "technical": [
+            "Full Stack Development",
+            "P2P Automation",
+            "Enterprise Systems",
+            "Documentation Platform",
+            "System Architecture"
+          ],
+          "functional": [
+            "Program Management",
+            "Pre-sales",
+            "Implementation",
+            "Team Leadership",
+            "Solution Design"
+          ]
+        }
+      },
+      "achievements": [
+        {
+          "title": "TCS TAP™ Accounts Payable Platform",
+          "description": "Pre-sales and implementation PM for cloud-based P2P automation — led 4-member team serving Fortune 500 customers",
+          "links": [
+            {"label": "Forrester Recognition", "url": "https://www.prnewswire.com/news-releases/tata-consultancy-services-tap-platform-recognized-as-a-strong-performer-in-eprocurement-300473807.html"},
+            {"label": "Platform Overview", "url": "https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/blogs/TAP-Procure-to-Pay-1017-1.pdf"}
+          ],
+          "impact": [
+            "Drove product revenue growth via cloud SaaS offering",
+            "Reduced deployment timeline by 4 weeks through refined CX processes",
+            "Cut implementation costs through process optimization"
+          ]
+        },
+        {
+          "title": "TCS MasterCraft™ Documentation Platform",
+          "description": "Built open-source CMS for standardized SaaS product documentation — integrated with MasterCraft™ suite",
+          "links": [
+            {"label": "MasterCraft Product", "url": "https://www.tcs.com/what-we-do/products-platforms/tcs-mastercraft"}
+          ],
+          "impact": [
+            "Reduced product support costs by ~15%",
+            "Enabled self-service documentation publishing for global teams",
+            "Foundation for tech writing expertise applied throughout career"
+          ]
+        }
+      ]
+    },
+    
+    {
+      "id": "Middlesex University",
+      "type": "Research",
+      "rank": 6,
+      "name": "Middlesex University",
+      "companyUrl": "https://www.mdx.com",
+      "companyDescription": "Leading SaaS provider of travel and expense management solutions for enterprises",
+      "tags": ["internal tools", "AI chatbot", "0-to-1", "MBA"],
+      "branding": {
+        "logos": {
+          "white": "images/company-logos/mdx-logo.jpg"
+        },
+        "colors": {
+          "primary": "#0070F2"
+        }
+      },
+      "role": {
+        "title": "Post Graduate assistant",
+        "level": "Intern"
+      },
+      "overview": {
+        "description": "MBA intern for Internal Tools group managing organization-wide Agile and DevOps platforms. Built and launched a support portal serving 5000+ users.",
+        "skillset": {
+          "technical": ["SAP Conversational AI", "Portal Development", "KPI Frameworks"],
+          "functional": ["Product Launch", "User Adoption", "Documentation"]
+        }
+      },
+      "achievements": [
+        {
+          "title": "Support Portal Launch",
+          "description": "Conceptualized, built, and launched a new support portal product streamlining support requests from 5000+ users",
+          "impact": [
+            "Achieved 80% global user adoption at launch",
+            "Reduced response time by 4x through 2 major portal changes",
+            "Defined 9 KPIs to monitor customer experience and product performance"
+          ]
+        },
+        {
+          "title": "SAP Conversational AI Chatbot PoC",
+          "description": "Built a proof-of-concept chatbot to respond to user FAQs using SAP Conversational AI",
+          "impact": [
+            "Aimed to boost developer productivity by 10%",
+            "Created recorded demos and user-facing documentation for adoption"
+          ]
+        }
+      ]
+    },
+          ]
+    }
+  ]
+}

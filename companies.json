@@ -1,0 +1,33 @@
+[
+    {
+        "id": "honeywell",
+        "name": "Honeywell",
+        "logo": "images/company-logos/Honeywell-logo.png",
+        "color": "#FF6F00"
+    },
+    {
+        "id": "RSA",
+        "name": "RSA",
+        "logo": "images/company-logos/DELL-RSA-Logo.jpg",
+        "color": "#C74634"
+    },
+    {
+        "id": "impelsys",
+        "name": "impelsys",
+        "logo": "images/company-logos/impelsys-logo.jpg",
+        "color": "#eb7200"
+    },
+    {
+        "id": "Lg",
+        "name": "LG",
+        "logo": "images/company-logos/LG-logo.jpg",
+        "color": "#000000"
+    },
+    {
+        "id": "cts",
+        "name": "Cognizant",
+        "logo": "images/company-logos/cts-logo.jpg",
+        "color": "#0080c5"
+    },
+    
+]

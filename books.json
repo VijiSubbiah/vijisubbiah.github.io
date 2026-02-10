@@ -1,0 +1,139 @@
+{
+  "config": {
+    "imageBaseUrl": "https://books.google.com/books/content",
+    "imageParams": "printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "imageFallbackUrl": "https://placehold.co/400x600/e9ecef/495057?text=",
+    "defaultImageSize": "zoom=1"
+  },
+  "books": [
+    {
+      "title": "The Coming Wave",
+      "author": "Mustafa Suleyman, Michael Bhaskar",
+      "googleBooksId": "a-26EAAAQBAJ",
+      "rating": 0,
+      "blurb": "Reading for perspective on AI from someone who actually built it. Suleyman co-founded DeepMind — when he talks about containment as the biggest dilemma, it's not theoretical.",
+      "types": ["technical"],
+      "status": "reading",
+      "lastStarted": "2025-01-15",
+      "readCount": 1
+    },
+    {
+      "title": "The Lean Product Playbook",
+      "author": "Dan Olsen",
+      "googleBooksId": "dCOsBwAAQBAJ",
+      "rating": 4.5,
+      "blurb": "A practical guide that's helping me structure my approach to product development. The value proposition framework is something I use regularly.",
+      "types": ["business"],
+      "status": "reading",
+      "lastStarted": "2024-01-15",
+      "readCount": 1
+    },
+    {
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "googleBooksId": "TnrrDwAAQBAJ",
+      "rating": 4.5,
+      "blurb": "Room for error—that concept is rewiring how I think about money. Not about maximizing returns, but surviving the downside. Applies beyond finance too.",
+      "types": ["personal", "business"],
+      "status": "reading",
+      "lastStarted": "2024-02-01",
+      "readCount": 1
+    },
+    {
+      "title": "10% Happier",
+      "author": "Dan Harris",
+      "googleBooksId": "ycEKAgAAQBAJ",
+      "rating": 4,
+      "blurb": "The 10% framing is refreshingly honest—stop chasing breakthroughs, just aim for slightly better. Small wins, compounded. Shifted how I think about progress in general.",
+      "types": ["personal"],
+      "status": "completed",
+      "lastStarted": "2024-02-15",
+      "lastCompleted": "2024-03-15",
+      "readCount": 1
+    },
+    {
+      "title": "Inspired",
+      "author": "Marty Cagan",
+      "googleBooksId": "QkY_DwAAQBAJ",
+      "rating": 5,
+      "blurb": "Fall in love with the problem, not the solution. Cagan's framing is simple but shifts everything about how I approach product work.",
+      "types": ["business"],
+      "status": "completed",
+      "lastStarted": "2023-11-01",
+      "readCount": 2,
+      "lastCompleted": "2024-01-10"
+    },
+    {
+      "title": "Football, Bloody Hell!",
+      "author": "Patrick Barclay",
+      "googleBooksId": "5aNERulnsF0C",
+      "rating": 4.5,
+      "blurb": "The reason I wanted to get into management. Ferguson got it: you work for the fans, not the other way around. Entertain first, revenue follows. Most of today's sports has this backwards.",
+      "types": ["personal", "business"],
+      "status": "completed",
+      "lastStarted": "2023-09-15",
+      "lastCompleted": "2023-10-20",
+      "readCount": 1
+    },
+    {
+      "title": "Wings of Fire",
+      "author": "A.P.J. Abdul Kalam",
+      "googleBooksId": "c3qmIZtWUjAC",
+      "rating": 5,
+      "blurb": "Read this young, revisited in adulthood. It's the pivots that stay with me. Rejected as a pilot, he made rockets fly instead. Resilience as redirection, not just persistence.",
+      "types": ["personal"],
+      "status": "completed",
+      "lastStarted": "2023-08-01",
+      "lastCompleted": "2023-09-05",
+      "readCount": 2
+    },
+    {
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "googleBooksId": "FmyBAwAAQBAJ",
+      "rating": 5,
+      "blurb": "History doesn't just rhyme, it sings. Same human patterns, new wrappers. A useful lens when things seem chaotic—scratch the surface and it's familiar. Applies to people, business, everything.",
+      "types": ["personal"],
+      "status": "completed",
+      "lastStarted": "2023-06-15",
+      "lastCompleted": "2023-07-30",
+      "readCount": 1
+    },
+    {
+      "title": "The Tipping Point",
+      "author": "Malcolm Gladwell",
+      "googleBooksId": "yBDBEGBIUmgC",
+      "rating": 4,
+      "blurb": "Small changes can have massive impact—no change is too small to think about. Connectors and sticky messages are my go-to lens for thinking about product adoption.",
+      "types": ["business"],
+      "status": "completed",
+      "lastStarted": "2023-05-01",
+      "lastCompleted": "2023-06-10",
+      "readCount": 1
+    },
+    {
+      "title": "Freakonomics",
+      "author": "Steven D. Levitt, Stephen J. Dubner",
+      "googleBooksId": "mXQVbIRkHegC",
+      "rating": 4.5,
+      "blurb": "Everything is incentives. Once you see behavior through that lens, you can't unsee it. Useful for understanding users, teams, everything.",
+      "types": ["business", "personal"],
+      "status": "completed",
+      "lastStarted": "2023-03-15",
+      "lastCompleted": "2023-04-20",
+      "readCount": 1
+    },
+    {
+      "title": "The Dalai Lama's Cat",
+      "author": "David Michie",
+      "googleBooksId": "lRyAlTuFMDoC",
+      "rating": 4.5,
+      "blurb": "Lessons wrapped as comfort. The cat observes, doesn't preach—and somehow that makes the wisdom land better. A gentle way into ideas that would feel heavy anywhere else.",
+      "types": ["personal"],
+      "status": "completed",
+      "lastStarted": "2023-02-01",
+      "lastCompleted": "2023-03-10",
+      "readCount": 1
+    }
+  ]
+}
