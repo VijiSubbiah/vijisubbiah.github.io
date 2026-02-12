@@ -164,15 +164,15 @@ header {
     object-fit: contain;
 }
 
-/* Testimonials Section */
-.testimonials {
+/* education Section */
+.education {
     margin: 20px 0;
     text-align: center;
     padding: 0;
     position: relative;
 }
 
-.testimonials h2 {
+.education h2 {
     font-size: 1.4em;
     margin-bottom: 8px;
     color: #333;
@@ -222,7 +222,7 @@ header {
     z-index: 10;
 }
 
-.testimonials:hover .carousel-arrow {
+.education:hover .carousel-arrow {
     opacity: 1;
 }
 
@@ -234,7 +234,7 @@ header {
 .carousel-prev { left: -50px; }
 .carousel-next { right: -50px; }
 
-.testimonial {
+.education {
     flex: 0 0 50%;
     width: 50%;
     padding: 10px;
@@ -242,7 +242,7 @@ header {
     height: 400px;
 }
 
-.testimonial-content {
+.education-content {
     background: white;
     padding: 25px 30px;
     border-radius: 10px;
@@ -255,7 +255,7 @@ header {
     position: relative;
 }
 
-.testimonial h3 {
+.education h3 {
     font-size: 1.15em;
     color: #333;
     margin: 0;
@@ -263,7 +263,7 @@ header {
     text-align: center;
 }
 
-.testimonial .title {
+.education .title {
     font-size: 0.9em;
     color: #555;
     margin: 0;
@@ -272,7 +272,7 @@ header {
     text-align: center;
 }
 
-.testimonial .relationship {
+.education .relationship {
     font-size: 0.85em;
     color: #666;
     font-style: italic;
@@ -282,7 +282,7 @@ header {
     text-align: center;
 }
 
-.testimonial blockquote {
+.education blockquote {
     font-size: 1em;
     line-height: 1.5;
     color: #444;
@@ -295,7 +295,7 @@ header {
     text-align: left;
 }
 
-.testimonial .read-more {
+.education .read-more {
     display: none;
     text-align: right;
     color: #666;
@@ -305,11 +305,11 @@ header {
     transition: color 0.2s ease;
 }
 
-.testimonial .read-more.visible {
+.education .read-more.visible {
     display: block;
 }
 
-.testimonial .read-more:hover {
+.education .read-more:hover {
     color: #333;
     text-decoration: underline;
 }
@@ -450,11 +450,11 @@ footer {
         margin-right: 0;
     }
 
-    .testimonials {
+    .education {
         padding: 0;
     }
 
-    .testimonial {
+    .education {
         flex: 0 0 100%;
         width: 100%;
         padding: 10px 0;
@@ -466,31 +466,31 @@ footer {
         display: none;
     }
 
-    .testimonial-content {
+    .education-content {
         padding: 20px;
     }
 
-    .testimonial h3 {
+    .education h3 {
         font-size: 1.05em;
         text-align: center;
     }
 
-    .testimonial .title {
+    .education .title {
         font-size: 0.85em;
         text-align: center;
     }
 
-    .testimonial .relationship {
+    .education .relationship {
         font-size: 0.8em;
         text-align: center;
     }
 
-    .testimonial blockquote {
+    .education blockquote {
         font-size: 0.9em;
         text-align: left;
     }
 
-    .testimonial .read-more {
+    .education .read-more {
         font-size: 0.8em;
     }
 }

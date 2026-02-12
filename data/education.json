@@ -1,0 +1,29 @@
+[
+    {
+       "id": "IIMK",
+        "name": "IIMK",
+        "logo": "images/education/iimk-logo.jpg",
+        "color": "#C74634"
+    },
+    {
+        "Schoolname": "Indian Institute of Management, Kozhikode",
+        "degree": "Professional Certification",
+        "fieldOfStudy": "Data Science and Aritificial Intelligence for Managers",
+        "description": "Acquired data science and artificial intelligence concepts ,Machine learning frameworksand their applications in business management."
+    },
+    
+    {
+       "Schoolimage": "https://vijisubbiah.github.io/vijisubbiah/images/education/mdx-logo.jpg",
+        "Schoolname": "Middlesex University, London",
+        "degree": "Master Of Science",
+        "fieldOfStudy": "Business Administration and Management",
+        "description": "Specialized in Business Information Systems Management, with a focus on strategic Product management, Intellectual Properties, Program management,Knowledge management and organizational behavior."
+    },
+    {
+       "Schoolimage": "https://vijisubbiah.github.io/vijisubbiah/images/education/au-logo.jpg",
+        "Schoolname": "Anna University, Chennai",
+        "degree": "Bachelor of Engineering ",
+        "fieldOfStudy": "Electronics and Communication Engineering",
+        "description": "Developed a strong foundation in programming,engineering, algorithms, data structures, and software development. Engaged in various projects and internships that enhanced practical skills and industry knowledge."
+    }
+]

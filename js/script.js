@@ -29,7 +29,7 @@ function log(message, data = null) {
 document.addEventListener('DOMContentLoaded', () => {
     log('DOM Content Loaded');
     initializeImages();
-    initializeTestimonials();
+    initializeeducation();
     loadHeaderFooter();
     calculateYears();
 });
@@ -85,10 +85,10 @@ function initializeImages() {
     }
 }
 
-function initializeTestimonials() {
-    log('Initializing testimonials');
+function initializeeducation() {
+    log('Initializing education');
     // Update path to match your directory structure
-    fetch('data/testimonials.json')
+    fetch('data/education.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -96,48 +96,48 @@ function initializeTestimonials() {
             return response.json();
         })
         .then(data => {
-            log('Testimonials data received', data);
-            renderTestimonials(data);
+            log('education data received', data);
+            rendereducation(data);
             setupCarouselControls();
             startCarouselAutoplay();
         })
         .catch(error => {
-            log('Error loading testimonials:', error);
-            const container = document.querySelector('.testimonials');
+            log('Error loading education:', error);
+            const container = document.querySelector('.education');
             if (container) {
                 container.innerHTML += `
-                    <p style="color: red;">Error loading testimonials. Please try again later.</p>
+                    <p style="color: red;">Error loading education. Please try again later.</p>
                     <p style="color: red;">Details: ${error.message}</p>
                 `;
             }
         });
 }
 
-function renderTestimonials(testimonials) {
-    log('Rendering testimonials');
-    const container = document.getElementById('testimonial-container');
+function rendereducation(education) {
+    log('Rendering education');
+    const container = document.getElementById('education-container');
     if (!container) {
-        log('Error: Testimonial container not found');
+        log('Error: education container not found');
         return;
     }
 
     // Clear existing content
     container.innerHTML = '';
 
-    // Add testimonials
-    testimonials.forEach((testimonial, index) => {
-        const testimonialElement = createTestimonialElement(testimonial);
-        container.appendChild(testimonialElement);
-        log(`Added testimonial ${index + 1}`);
+    // Add education
+    education.forEach((education, index) => {
+        const educationElement = createeducationElement(education);
+        container.appendChild(educationElement);
+        log(`Added education ${index + 1}`);
     });
 
-    // Clone first two testimonials for infinite scroll
-    if (testimonials.length >= 2) {
+    // Clone first two education for infinite scroll
+    if (education.length >= 2) {
         const first = container.children[0].cloneNode(true);
         const second = container.children[1].cloneNode(true);
         container.appendChild(first);
         container.appendChild(second);
-        log('Added clone testimonials for infinite scroll');
+        log('Added clone education for infinite scroll');
     }
 
     // Check truncation and show "Read more" only when needed
@@ -145,7 +145,7 @@ function renderTestimonials(testimonials) {
 }
 
 function checkTruncation() {
-    const blockquotes = document.querySelectorAll('.testimonial blockquote');
+    const blockquotes = document.querySelectorAll('.education blockquote');
     blockquotes.forEach(bq => {
         const readMore = bq.parentElement.querySelector('.read-more');
         if (readMore && bq.scrollHeight > bq.clientHeight) {
@@ -154,10 +154,10 @@ function checkTruncation() {
     });
 }
 
-function createTestimonialElement(testimonial) {
+function createeducationElement(education) {
     const element = document.createElement('div');
-    element.className = 'testimonial';
-    element.innerHTML = `<div class="testimonial-content"><h3>${testimonial.name}</h3><p class="title">(${testimonial.title})</p><p class="relationship">${testimonial.relationship}</p><blockquote>"${testimonial.quote}"</blockquote><a href="https://www.linkedin.com/in/prashant-rana/details/recommendations/?detailScreenTabIndex=0" class="read-more" target="_blank" rel="noopener">Read more →</a></div>`;
+    element.className = 'education';
+    element.innerHTML = `<div class="education-content"><h3>${education.name}</h3><p class="title">(${education.title})</p><p class="relationship">${education.relationship}</p><blockquote>"${education.quote}"</blockquote><a href="https://www.linkedin.com/in/prashant-rana/details/recommendations/?detailScreenTabIndex=0" class="read-more" target="_blank" rel="noopener">Read more →</a></div>`;
     return element;
 }
 
@@ -218,9 +218,9 @@ function getCloneCount() {
 }
 
 function moveCarousel(direction = 1) {
-    const container = document.getElementById('testimonial-container');
+    const container = document.getElementById('education-container');
     if (!container) {
-        log('Error: Testimonial container not found during move');
+        log('Error: education container not found during move');
         return;
     }
 

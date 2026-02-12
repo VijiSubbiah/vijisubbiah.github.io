@@ -9,131 +9,77 @@
     {
       "title": "Thought Leaders",
       "author": "Matt Church, Scott Stein, Michael Henderson",
-      "googleBooksId": "a-26EAAAQBAJ",
-      "rating": 0,
-      "blurb": "Showcase how experts can transform their knowledge into a commercially viable consulting practice by building a strong personal brand. It also helped me with a step-by-step framework to create impact, independence, and financial success without large teams or heavy capital investment.",
-      "types": ["business"],
-      "status": "reading",
+      "googleBooksId": "owlKYgEACAAJ",
+      "blurb": " A step-by-step framework to create impact, independence, and financial success without large teams or heavy capital investment.",
+      "types": [
+        "business"
+      ],
+      "status": "completed",
       "lastStarted": "2025-01-15",
       "readCount": 1
     },
     {
       "title": "The Culture Map ",
       "author": "Erin Meyer",
-      "googleBooksId": "dCOsBwAAQBAJ",
-      "rating": 4.5,
-      "blurb": "A practical guide to understanding and navigating cultural differences in international workplaces. It provides a framework for decoding how people from different cultures communicate, lead, make decisions, build trust, and manage time",
-      "types": ["business"],
-      "status": "reading",
+      "googleBooksId": "tG_BtAEACAAJ",
+      "blurb": "Navigating cultural differences in international workplace,how people from different cultures communicate, lead, make decisions, build trust, and manage time.",
+      "types": [
+        "business"
+      ],
+      "status": "completed",
       "lastStarted": "2024-01-15",
       "readCount": 1
     },
     {
       "title": "Emotional Intelligence",
       "author": "Daniel Goleman",
-      "googleBooksId": "TnrrDwAAQBAJ",
-      "rating": 4.5,
-      "blurb": "The success in life and work depends not only on cognitive intelligence (IQ) but also on emotional intelligence (EQ). Goleman argues that EQ can be even more important than IQ in predicting performance, leadership, and relationship quality.",
-      "types": ["personal", "business"],
-      "status": "reading",
+      "googleBooksId": "Lq18kigs7m0C",
+      "blurb": "The success in life and work depends not only on cognitive intelligence (IQ) but also on emotional intelligence (EQ).",
+      "types": [
+        "personal",
+        "business"
+      ],
+      "status": "completed",
       "lastStarted": "2024-02-01",
       "readCount": 1
     },
     {
-      "title": "10% Happier",
-      "author": "Dan Harris",
-      "googleBooksId": "ycEKAgAAQBAJ",
-      "rating": 4,
-      "blurb": "The 10% framing is refreshingly honest—stop chasing breakthroughs, just aim for slightly better. Small wins, compounded. Shifted how I think about progress in general.",
-      "types": ["personal"],
-      "status": "completed",
+      "title": "Behave",
+      "author": "Robert Sapolsky",
+      "googleBooksId": "4ENUCwAAQBAJ",
+      "blurb": "The History of human Behaviour.Moral decisions are often subconscious, influenced by brain chemistry and social context.",
+      "types": [
+        "personal"
+      ],
+      "status": "reading",
       "lastStarted": "2024-02-15",
-      "lastCompleted": "2024-03-15",
+            "readCount": 1
+    },
+    {
+      "title": "The 21 Irrefutable Laws of Leadership",
+      "author": "John C Maxwell",
+      "googleBooksId": "NAwULwEACAAJ",
+      "blurb": "Leadership is influence, nothing more, nothing less, from business to politics to personal relationships.",
+      "types": [
+        "business"
+      ],
+      "status": "completed",
+      "lastStarted": "2024-01-01",
+      "lastCompleted": "2024-01-10",
       "readCount": 1
     },
     {
-      "title": "Inspired",
-      "author": "Marty Cagan",
-      "googleBooksId": "QkY_DwAAQBAJ",
-      "rating": 5,
-      "blurb": "Fall in love with the problem, not the solution. Cagan's framing is simple but shifts everything about how I approach product work.",
-      "types": ["business"],
-      "status": "completed",
-      "lastStarted": "2023-11-01",
-      "readCount": 2,
-      "lastCompleted": "2024-01-10"
-    },
-    {
-      "title": "Football, Bloody Hell!",
-      "author": "Patrick Barclay",
-      "googleBooksId": "5aNERulnsF0C",
-      "rating": 4.5,
-      "blurb": "The reason I wanted to get into management. Ferguson got it: you work for the fans, not the other way around. Entertain first, revenue follows. Most of today's sports has this backwards.",
-      "types": ["personal", "business"],
-      "status": "completed",
-      "lastStarted": "2023-09-15",
-      "lastCompleted": "2023-10-20",
-      "readCount": 1
-    },
-    {
-      "title": "Wings of Fire",
-      "author": "A.P.J. Abdul Kalam",
-      "googleBooksId": "c3qmIZtWUjAC",
-      "rating": 5,
-      "blurb": "Read this young, revisited in adulthood. It's the pivots that stay with me. Rejected as a pilot, he made rockets fly instead. Resilience as redirection, not just persistence.",
-      "types": ["personal"],
+      "title": "Wabi Sabi",
+      "author": "Beth Kempton",
+      "googleBooksId": "6cJQDwAAQBAJ",
+      "blurb": "A practical guide to embracing imperfection, impermanence, and simplicity,",
+      "types": [
+        "personal"
+      ],
       "status": "completed",
       "lastStarted": "2023-08-01",
       "lastCompleted": "2023-09-05",
       "readCount": 2
-    },
-    {
-      "title": "Sapiens",
-      "author": "Yuval Noah Harari",
-      "googleBooksId": "FmyBAwAAQBAJ",
-      "rating": 5,
-      "blurb": "History doesn't just rhyme, it sings. Same human patterns, new wrappers. A useful lens when things seem chaotic—scratch the surface and it's familiar. Applies to people, business, everything.",
-      "types": ["personal"],
-      "status": "completed",
-      "lastStarted": "2023-06-15",
-      "lastCompleted": "2023-07-30",
-      "readCount": 1
-    },
-    {
-      "title": "The Tipping Point",
-      "author": "Malcolm Gladwell",
-      "googleBooksId": "yBDBEGBIUmgC",
-      "rating": 4,
-      "blurb": "Small changes can have massive impact—no change is too small to think about. Connectors and sticky messages are my go-to lens for thinking about product adoption.",
-      "types": ["business"],
-      "status": "completed",
-      "lastStarted": "2023-05-01",
-      "lastCompleted": "2023-06-10",
-      "readCount": 1
-    },
-    {
-      "title": "Freakonomics",
-      "author": "Steven D. Levitt, Stephen J. Dubner",
-      "googleBooksId": "mXQVbIRkHegC",
-      "rating": 4.5,
-      "blurb": "Everything is incentives. Once you see behavior through that lens, you can't unsee it. Useful for understanding users, teams, everything.",
-      "types": ["business", "personal"],
-      "status": "completed",
-      "lastStarted": "2023-03-15",
-      "lastCompleted": "2023-04-20",
-      "readCount": 1
-    },
-    {
-      "title": "The Dalai Lama's Cat",
-      "author": "David Michie",
-      "googleBooksId": "lRyAlTuFMDoC",
-      "rating": 4.5,
-      "blurb": "Lessons wrapped as comfort. The cat observes, doesn't preach—and somehow that makes the wisdom land better. A gentle way into ideas that would feel heavy anywhere else.",
-      "types": ["personal"],
-      "status": "completed",
-      "lastStarted": "2023-02-01",
-      "lastCompleted": "2023-03-10",
-      "readCount": 1
     }
   ]
 }
