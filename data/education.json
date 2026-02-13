@@ -1,9 +1,13 @@
 [
     {
-       "id": "IIMK",
-        "name": "IIMK",
-        "logo": "images/education/iimk-logo.jpg",
-        "color": "#C74634"
+       "branding": {
+      "logos": {
+        "white": "images/company-logos/mdx-logo.jpg"
+      },
+      "colors": {
+        "primary": "#0070F2"
+      }
+    }
     },
     {
         "Schoolname": "Indian Institute of Management, Kozhikode",

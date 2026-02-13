@@ -8,19 +8,19 @@
     {
         "id": "RSA",
         "name": "RSA",
-        "logo": "images/company-logos/DELL-RSA-Logo.jpg",
+        "logo": "images/company-logos/DELL-RSA-Logo.png",
         "color": "#C74634"
     },
     {
         "id": "impelsys",
         "name": "impelsys",
-        "logo": "images/company-logos/impelsys-logo.jpg",
+        "logo": "images/company-logos/impelsys-logo.png",
         "color": "#eb7200"
     },
     {
         "id": "Lg",
         "name": "LG",
-        "logo": "images/company-logos/LG-logo.jpg",
+        "logo": "images/company-logos/LG-logo.png",
         "color": "#000000"
     },
     {

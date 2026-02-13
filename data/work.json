@@ -13,20 +13,17 @@
       "companyUrl": "https://honeywell.com",
       "companyDescription": "A multi national Conglomerate",
       "tags": [
-        "BMS",
-        "integrations",
-        "API",
-        "partnerships",
-        "0-to-1",
-        "Automation",
-        "Artificial Intelligence"
-      ],
+        "AI/ML",
+         "0-to-1",  
+         "Digitization",
+        "Data-driven insights"
+                      ],
       "branding": {
         "logos": {
-          "white": "images/company-logos/honeywell-logo.jpg"
+          "white": "images/company-logos/honeywell-logo.png"
         },
         "colors": {
-          "primary": "#FF6F00"
+          "primary": "#ee3124"
         }
       },
       "role": {
@@ -113,15 +110,14 @@
       "companyUrl": "https://www.rsa.com",
       "companyDescription": "Leading the fight against payments fraud. Powered by cutting-edge data science and a suite of market-leading, anti-fraud products",
       "tags": [
-        "APIs",
-        "Risk engine",
+        "Risk scoring",
         "EMVCO 3DS 2.0",
-        "Azure cloud",
-        "enterprise"
+        "Fraud Detection",
+        "Customer Success"
       ],
       "branding": {
         "logos": {
-          "white": "images/company-logos/DELL-RSA-Logo.jpg"
+          "white": "images/company-logos/DELL-RSA-Logo.png"
         },
         "colors": {
           "primary": "#C74634"
@@ -221,10 +217,10 @@
       ],
       "branding": {
         "logos": {
-          "white": "images/company-logos/impelsys-logo.jpg"
+          "white": "images/company-logos/impelsys-logo.png"
         },
         "colors": {
-          "primary": "#eb7200"
+          "primary": "#3781C2"
         }
       },
       "role": {
@@ -291,17 +287,17 @@
     "companyUrl": "https://www.lg.com",
     "companyDescription": "Leading provider of Global consumer electronics, home appliances, and mobile communications",
     "tags": [
-      "device integration",
-      "EHR",
-      "compliance",
+      "BBTV",
+      "Embedded Systems",
+      "Localisation",
       "IoT"
     ],
     "branding": {
       "logos": {
-        "white": "images/company-logos/LG-logo.jpg"
+        "white": "images/company-logos/LG-logo.png"
       },
       "colors": {
-        "primary": "#000000"
+        "primary": "#990033"
       }
     },
     "role": {
@@ -365,7 +361,7 @@
         "white": "images/company-logos/cts-logo.png"
       },
       "colors": {
-        "primary": "#0080c5"
+        "primary": "#1E728C"
       }
     },
     "role": {
@@ -426,7 +422,7 @@
     ],
     "branding": {
       "logos": {
-        "white": "images/company-logos/mdx-logo.jpg"
+        "white": "images/company-logos/mdx-logo.png"
       },
       "colors": {
         "primary": "#0070F2"
